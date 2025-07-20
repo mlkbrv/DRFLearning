@@ -1,0 +1,11 @@
+POST http://127.0.0.1:8000/products/ HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUyNzg2NTE0LCJpYXQiOjE3NTI3ODYyMTQsImp0aSI6ImM1ZmE1MzVkYzQ4NzQ4NjA4N2FhMzEzYThjYjk3MGJmIiwidXNlcl9pZCI6Mn0.ShUpulwbnbNMXzXFHvx_02oVYIy3C150Xdsb0F4eaQ8
+
+{
+  "name": "Product 4",
+  "description": "Not bad",
+  "price": 100,
+  "stock": 1
+}
+
